@@ -10,7 +10,7 @@ public class Main {
     static boolean isLogin = false;
 
     public static void main(String[] args) {
-        User.addUser("user", "123", false, 90000);
+        User.addUser("user", "123", false, 100000);
         User.addUser("admin", "123", true, 100000);
         
         Film.addFilm("Film A", "Deskripsi A", 50000, 10);
